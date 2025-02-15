@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список дела</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper-list">
+        <h2 class="title">Мой список дел✏️</h2>
+        <div class="to-do-list">
+            <div class="inner-block">
+                <input type="text" name="nameInput" id="nameInput" class="name-input" placeholder="Добавить задачу">
+                <button type="button" id="myButton" class="btn">Добавить</button>
+            </div>
+            <ul id="list" class="list"></ul>
+        </div>
+    </div>
+    <div class="modal" id="modal">
+        <div class="modal__window">
+            <p class="modal__msg">Удалить?</p>
+            <button id="del">Удалить</button>
+            <button id="cancel">Отмена</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
